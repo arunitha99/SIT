@@ -37,6 +37,8 @@
     }
 
     #head {
+        display: flex;
+        align-items: center;
         height: 50px;
         background-color: aquamarine;
     }
@@ -82,38 +84,74 @@
         background-color: rgb(126, 228, 140);
         height: 200px;
     }
-
+.heading{
+    position:relative;
+    top:30%;    
+}
     .login {
-        background-color: lightgrey
+        background-color: rgba(174, 245, 10, 0.973)
     }
 
-    #login {
+    #login,
+    #signup {
         border: 1px solid black;
         width: 250px;
-        height: 250px;
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: aqua;
+
     }
 
-    .container {
+    #login {
+        height: 350px;
+        background-color: #fc4437;
+        color: white;
+    }
 
+    #login a,
+    #signup a {
+        color: white;
+    }
+
+    #login a:hover,
+    #signup a:hover {
+        color: rgb(31, 3, 3);
+    }
+
+    #login input:hover,
+    #signup input:hover {
+        background-color: black;
+        color: white;
+        box-shadow: 2px 5px 5px rgb(250, 247, 247);
+        border: 1px solid white;
+
+    }
+
+    #signup {
+        height: 40 0px;
+        background-color: #b53cecf5;
+        color: white;
+    }
+
+    .container,
+    .containerl {
+        z-index: 1;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        
+
     }
-    .center
-    {
+
+    .center {
         text-align: center;
     }
+
     .container input[type="submit"] {
-        width:100px;
-        position:relative;
-        left:15%;
+        width: 100px;
+        position: relative;
+        left: 15%;
     }
 }
