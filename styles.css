@@ -3,9 +3,9 @@
         /* background-image: url("TamilNadu1.jpg");
     background-repeat: no-repeat;
      */
-     width:70%;
-     position: relative;
-     left:15%;
+        width: 80%;
+        position: relative;
+        left: 10%;
     }
 
     .img-responsive {
@@ -27,12 +27,15 @@
         left: 92%;
     }
 
-    .bar1,.bar2,.bar3{
-        background-color:black;
-        width:90%;
-        height:2px;
-        margin:0px;
+    .bar1,
+    .bar2,
+    .bar3 {
+        background-color: black;
+        width: 90%;
+        height: 2px;
+        margin: 0px;
     }
+
     #head {
         height: 50px;
         background-color: aquamarine;
@@ -41,7 +44,7 @@
     .header-content {
         position: absolute;
         left: 12%;
-        font-family: "Bradley Hand","Times New Roman";
+        font-family: "Bradley Hand", "Times New Roman";
         font-size: 30px;
         color: rgb(9, 12, 1);
     }
@@ -74,8 +77,43 @@
         color: rgb(73, 3, 58);
         text-decoration: none;
     }
+
     .footer {
-        background-color:rgb(126, 228, 140);
-        height:200px;
+        background-color: rgb(126, 228, 140);
+        height: 200px;
+    }
+
+    .login {
+        background-color: lightgrey
+    }
+
+    #login {
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+    }
+
+    .container {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .center
+    {
+        text-align: center;
+    }
+    .container input[type="submit"] {
+        width:100px;
+        position:relative;
+        left:15%;
     }
 }
