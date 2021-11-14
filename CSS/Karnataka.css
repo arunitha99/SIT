@@ -1,0 +1,187 @@
+.header_logo {
+    height: 50px;
+    width: 120px;
+    border: 1px solid white;
+}
+
+.header {
+    height: 50px;
+    background-color: white;
+    width: 94%;
+    position: absolute;
+    left: 4%;
+}
+
+.body {
+    background-image: url("../IMAGES/stars.jpg");
+    color: white;
+}
+
+/*
+body{
+    background-color:black;
+    color:white;
+}*/
+.body .content-header-after {
+    position: absolute;
+    top: 70px;
+    left: 5%;
+    padding-left: 2%;
+    width: 87%;
+}
+
+.content-header-after h1 {
+    margin-left: 50px;
+
+}
+
+.container {
+    margin-left: 50px;
+}
+
+/* .content-header-after a h4{
+display:none;
+position:absolute;
+
+}
+
+.content-header-after .container a:hover h4{
+    display:inline;
+    position:absolute;
+    top:10px;
+    color:white;
+    transform:scale(1.1);
+    z-index:1;
+}
+
+.content-header-after .container a:hover .image-k{
+    z-index:2;
+    transform:scale(1.1);
+    box-shadow:2px 2px 10px 2px rgb(255, 255, 0);
+} */
+.image-k {
+    margin: 5px;
+    width: 45%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body #content {
+    text-align: justify;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.container-k {
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-s {
+    width: 500px;
+    height: 100px;
+}
+
+.container-left,
+.container-right {
+    width: 40%;
+}
+
+.container-l {
+    width: 60%;
+}
+
+.container-r {
+    width: 35%;
+    padding-left: 10px;
+    /* background-color: white; */
+}
+
+.image-left,
+.image-l {
+    width: 100%;
+    height: 100%;
+}
+
+.container-k .image-left:hover {
+    box-shadow: 2px 2px 10px 2px red;
+    transform: scale(1.05);
+}
+
+.content-header-after a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-header-after a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.container-k a h4 {
+    color: white;
+}
+
+.footer {
+    background-color: white;
+    height: 50px;
+    width: 97.5%;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+}
+
+/* 
+.dropbtn {
+    background-color: #616461;
+    color: white;
+    padding-left: 36px;
+    padding-top:20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #555a55;
+  } */
+
+

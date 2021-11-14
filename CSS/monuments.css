@@ -1,0 +1,98 @@
+
+.bodymon {
+    background-image: url("../IMAGES/background.jpg");
+    /* background-repeat: no-repeat;
+    background-size:100%; */
+}
+
+.bodymon .content-header-after {
+    background: linear-gradient(150deg, red, yellow);
+    /* background-color:rgb(107, 135, 160); */
+    margin-right: 3%;
+    margin-left: 5%;
+    height: 100%;
+    padding: 10px;
+}
+
+.container-flexcol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+#Badami,
+#Belgaum,
+#Bidar,
+#ChennaTemp,
+#Choubara,
+#GolGumbaz,
+#Hampi,
+#HoysaTemple,
+#MysorePalace,
+#Statue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    width: 100%;
+}
+
+@media (max-width:1000px) {
+
+    #Badami,
+    #Belgaum,
+    #Bidar,
+    #ChennaTemp,
+    #Choubara,
+    #GolGumbaz,
+    #Hampi,
+    #HoysaTemple,
+    #MysorePalace,
+    #Statue {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 40px;
+        text-align: justify;
+    }
+
+    .image-container {
+        padding-left: 12%;
+    }
+
+    .container-l {
+        width: 80%;
+    }
+
+    .container-r {
+        width: 100%;
+        /* background-color: white; */
+    }
+
+    h1,
+    p {
+        color: white;
+        text-align: center;
+    }
+
+    .content-header-after a:hover {
+        color: rgb(33, 32, 41);
+    }
+
+    #Badami .container-s,
+    #Belgaum .container-s,
+    #Bidar .container-s,
+    #ChennaTemp .container-s,
+    #Choubara .container-s,
+    #GolGumbaz .container-s,
+    #Hampi .container-s,
+    #HoysaTemple .container-s,
+    #MysorePalace .container-s,
+    #Statue .container-s {
+        display: none;
+    }
+}
