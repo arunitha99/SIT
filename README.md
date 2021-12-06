@@ -1,11 +1,12 @@
 # SIT
 please add this code before the starting of the page.
 
- <link rel="stylesheet" type="text/css" href="../CSS/layout.css">
- <link rel="stylesheet" type="text/css" href="../CSS/Karnataka.css">
 
-add the above 2 lines in the head tag.
 
+add the below 2 lines in the head tag.
+
+<link rel="stylesheet" type="text/css" href="../CSS/layout.css">
+<link rel="stylesheet" type="text/css" href="../CSS/Karnataka.css">
 <div class="wrapper">
         <div class="header">
 
