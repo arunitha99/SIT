@@ -3,7 +3,7 @@ please add this code before the starting of the page.
 
 
 
-add the below 2 lines in the head tag.
+add the below 2 lines in the head tag. Copy the content in a notepad as you cannot see the entire readme.
 
 <link rel="stylesheet" type="text/css" href="../CSS/layout.css">
 <link rel="stylesheet" type="text/css" href="../CSS/Karnataka.css">
