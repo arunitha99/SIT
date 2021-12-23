@@ -49,6 +49,11 @@
 .footer {
     grid-area: footer;
     background-color: rgb(172, 9, 247);
+    grid-area: footer;
+    display: grid;
+    grid-area:
+        "left right";
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo_container {
@@ -73,6 +78,13 @@
     position: relative;
     top: 2px;
     left: 1px;
+}
+
+.left,
+.right {
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 @media (max-width:1000px) {
